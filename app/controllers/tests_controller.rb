@@ -1,7 +1,7 @@
 class TestsController < ApplicationController
 
 def index
-  @tests = Test.all()
+  @tweet = Tweet.new
 end
 
 end
